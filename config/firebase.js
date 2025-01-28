@@ -21,6 +21,7 @@ const firebaseConfig = {
   storageBucket: extra.storageBucket,
   messagingSenderId: extra.messagingSenderId,
   appId: extra.appId,
+  databaseURL: extra.databaseURL,
 };
 
 initializeApp(firebaseConfig);
