@@ -48,7 +48,7 @@ export default function Chat() {
                     }}
                     onPress={onSignOut}
                 >
-                    <AntDesign name="logout" size={24} color={colors.gray} style={{marginRight: 10}}/>
+                    <AntDesign name="logout" size={24} color={colors.black} style={{marginRight: 10}}/>
                 </TouchableOpacity>
             )
         });
@@ -89,7 +89,7 @@ export default function Chat() {
         <KeyboardAvoidingView
             style={{ flex: 1 }}
             behavior={Platform.OS === "ios" ? "padding" : "height"}
-            keyboardVerticalOffset={-90}
+            keyboardVerticalOffset={-80}
         >
             <GiftedChat
                 messages={messages}
